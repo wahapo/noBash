@@ -1,0 +1,6 @@
+jobs:
+  main:
+    image: alpine/opencv:latest
+    requires: [ ~pr, ~commit ]
+    steps:
+      - which bash
