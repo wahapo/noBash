@@ -4,3 +4,4 @@ jobs:
     requires: [ ~pr, ~commit ]
     steps:
       - which bash
+      - ls -la /bin/bash
